@@ -120,11 +120,6 @@ button{
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.row h2, .row p{
-
 }
 
 .col-large, .col-small {
@@ -139,9 +134,21 @@ button{
   width: 40%;
 }
 
-.box-green {
+.row h2, .row p{
+  padding: 2em;
+}
+
+.box-green {    /* cambiare il nome della classe */
   min-height: 500px;
-  background-color: #228b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  background-image: url(../img/stars.svg);
+  background-size: 100% 100%;
 }
 
 footer .col {
