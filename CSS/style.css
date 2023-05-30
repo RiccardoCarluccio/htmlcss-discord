@@ -1,19 +1,16 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
-  /* font-size: 20px; */
 }
 
 header {
-  background-color: #add8e6;
+  background-color: rgba(37,94,233,255);
   padding-top: 1rem;
-  padding-bottom: 4px;
 }
 
 header nav {
@@ -39,23 +36,26 @@ footer {
   margin: 0 auto;
 }
 
-.bg-yellow {
-  background-color: #daa520;
+.container-hero{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-white{
+  color: white;
 }
 
 .bg-grey {
   background-color: #d3d3d3;
 }
 
-.nav-links,
-.nav-logo,
-.nav-login {
-  border: 1px dashed black;
+.nav-links, .nav-login {
   padding: 0.5rem;
 }
 
-.nav-logo,
-.nav-login {
+.nav-logo, .nav-login {
   min-width: 150px;
 }
 
@@ -73,7 +73,7 @@ footer {
   display: inline-block;
   padding: 0 0.3rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav-login {
@@ -81,45 +81,70 @@ footer {
 }
 
 .hero-section {
-  background-color: #00008b;
-  padding: 2rem 0;
+  padding: 5rem 0;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .hero-section .container {
   max-width: 680px;
-  border: 1px dashed black;
   min-height: 300px;
-  background-color: #ee82ee;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container-hero p{
+  line-height: 2rem;
+}
+
+.container-hero button{
+  margin: auto 2rem;
+  padding: .8rem 1.5rem;
+}
+
+button{
+  border: none;
+  border-radius: 25px;
+}
+
+.btn-white{
+  background-color: white;
+}
+
+.btn-black{
+  background-color: rgba(35,39,42,255);
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.col-large,
-.col-small {
-  border: 1px dashed black;
+.row h2, .row p{
+
+}
+
+.col-large, .col-small {
   min-height: 300px;
 }
 
 .col-large {
   width: 60%;
-  background-color: #1e90ff;
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
 }
 
 .box-green {
-  border: 1px dashed black;
   min-height: 500px;
   background-color: #228b22;
 }
 
 footer .col {
-  border: 1px dashed white;
   flex-grow: 1;
   background-color: #20b2aa;
   min-height: 300px;
@@ -143,9 +168,7 @@ footer hr {
   justify-content: space-between;
 }
 
-.footer-logo,
-.footer-btn {
-  border: 1px dashed black;
+.footer-logo, .footer-btn {
   padding: 0.5rem;
   background-color: #FFB6C1;
 }
