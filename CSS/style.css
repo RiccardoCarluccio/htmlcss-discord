@@ -102,12 +102,15 @@ h1{
 
 .container-hero button{
   margin: auto 2rem;
-  padding: .8rem 1.5rem;
 }
 
 button{
   border: none;
   border-radius: 25px;
+}
+
+.btn-big{  
+  padding: .8rem 1.5rem;
 }
 
 .btn-white{
@@ -116,6 +119,10 @@ button{
 
 .btn-black{
   background-color: rgba(35,39,42,255);
+}
+
+.btn-celeste{
+  background-color: rgba(114,137,218,255);
 }
 
 .row {
@@ -143,12 +150,12 @@ button{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin: auto;
+  text-align: center;
 }
 
 h3{
-  background-image: url(../img/stars.svg);
-  background-size: 100% 100%;
+  background-image: url(../img/stars.svg);  /* fixare posizione e dimensioni */
 }
 
 footer .col {
