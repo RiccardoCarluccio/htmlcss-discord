@@ -28,22 +28,19 @@ section {
 
 .container {
   max-width: 980px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .container-hero{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.text-white{
-  color: white;
-}
-
-.bg-grey {
-  background-color: #d3d3d3;
+.container-hero p {
+  font-size: 19px;
+  text-align: center;
 }
 
 .nav-links, .nav-login {
@@ -95,10 +92,6 @@ h1{
   line-height: 2rem;
 }
 
-.container-hero button{
-  margin: auto 2rem;
-}
-
 button{
   border: none;
   border-radius: 25px;
@@ -106,18 +99,7 @@ button{
 
 .btn-big{  
   padding: .8rem 1.5rem;
-}
-
-.btn-white{
-  background-color: white;
-}
-
-.btn-black{
-  background-color: rgba(35,39,42,255);
-}
-
-.btn-celeste{
-  background-color: rgba(114,137,218,255);
+  font-size: 19px;
 }
 
 .row {
@@ -194,4 +176,28 @@ footer hr {
 .footer-logo, .footer-btn {
   padding: 0.5rem;
   background-color: #FFB6C1;
+}
+
+              /* classi di stile */
+/* classi di colore testo */
+.text-white {
+  color: white;
+}
+
+/* classi di colore sfondo */
+.bg-grey {
+  background-color: #d3d3d3;
+}
+
+/* classi di colore bottoni */
+.btn-white{
+  background-color: white;
+}
+
+.btn-black{
+  background-color: rgba(35,39,42,255);
+}
+
+.btn-celeste{
+  background-color: rgba(114,137,218,255);
 }
