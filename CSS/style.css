@@ -181,11 +181,18 @@ p {
 }
 
 h3{
-  background-image: url(../img/stars.svg);  /* fixare posizione e dimensioni */
+  margin-top:20px;
+  padding-top: 20px;
+  font-size: 25px;
+  line-height: 80px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: auto 47px;
+  background-position: 50% 20%;
 }
 
 .btn-container{
-  margin: 2.5rem auto 4rem;
+  margin: 1.4rem auto 4rem;
 }
 
 footer{
