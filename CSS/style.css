@@ -27,7 +27,7 @@ section {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -53,14 +53,22 @@ section {
   min-width: 150px;
 }
 
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links {
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  gap: 30px;
 }
 
 .nav-links ul a {
@@ -72,6 +80,10 @@ section {
 
 .nav-login {
   text-align: right;
+}
+
+.btn-small {
+  padding: 7px 14px;
 }
 
 .hero-section {
@@ -109,7 +121,7 @@ button{
   padding: .8rem 1.5rem;
   font-size: 19px;
 }
-
+              /* inizio main */
 .row {
   display: flex;
 }
@@ -128,6 +140,10 @@ button{
 
 .row h2, .row p{
   padding: 2em;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .box-green {    /* cambiare il nome della classe */
@@ -190,6 +206,10 @@ footer hr {
 /* classi di colore testo */
 .text-white {
   color: white;
+}
+
+.text-black {
+  color: black;
 }
 
 /* classi di colore sfondo */
