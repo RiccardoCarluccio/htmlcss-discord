@@ -36,6 +36,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  margin-top: 60px;
 }
 
 .container-hero p {
@@ -76,6 +78,7 @@ section {
   padding: 5rem 0;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position-y: -40px;
 }
 
 .hero-section .container {
@@ -83,9 +86,14 @@ section {
   min-height: 300px;
 }
 
+.btn-hero-container {
+  display: flex;
+  gap: 20px;
+}
+
 h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 50px;
 }
 
 .container-hero p{
