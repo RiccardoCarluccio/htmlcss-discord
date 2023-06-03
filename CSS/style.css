@@ -122,13 +122,12 @@ button{
   font-size: 19px;
 }
               /* inizio main */
-main > img {
+.wave-1hkxOo {
   margin-bottom: -3px;
 }
 
-.rotate {
-  transform: rotate(180deg);
-  /* da ruotare latitudinalmente */
+.rotated-img {
+  rotate: 1 0 0 180deg;
 }
 
 .row {
@@ -163,7 +162,7 @@ p {
   line-height: 30px;
 }
 
-.box-green {    /* cambiare il nome della classe */
+.big-box {
   min-height: 500px;
   display: flex;
   flex-direction: column;
