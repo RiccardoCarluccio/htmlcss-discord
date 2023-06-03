@@ -122,8 +122,19 @@ button{
   font-size: 19px;
 }
               /* inizio main */
+main > img {
+  margin-bottom: -3px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  /* da ruotare latitudinalmente */
+}
+
 .row {
   display: flex;
+  align-items: center;
+  margin: 60px auto;
 }
 
 .col-large, .col-small {
@@ -131,19 +142,25 @@ button{
 }
 
 .col-large {
-  width: 60%;
+  width: 46%;
+  margin-left: 160px;
 }
 
 .col-small {
-  width: 40%;
-}
-
-.row h2, .row p{
-  padding: 2em;
+  width: 27%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 47px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .box-green {    /* cambiare il nome della classe */
