@@ -195,9 +195,15 @@ h3{
   margin: 1.4rem auto 4rem;
 }
 
-footer{
+footer{                  /* footer */
   background-color: rgba(35,39,42,255);
   padding-top: 6px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
 }
 
 .big-footer-container{
@@ -205,16 +211,27 @@ footer{
   margin: auto;
 }
 
-footer .col {
-  flex-grow: 1;
-  background-color: #20b2aa;
-  min-height: 300px;
+.footer-col-large {
+  border-color: black;
 }
 
-footer .col-large {
-  width: 15%;
-  background-color: #f08080;
-  border-color: black;
+footer .col {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.big-footer-container h4 {
+  font-size: 30px;
+}
+
+.footer-col-large span:last-child {
+  margin-top: 5px;
+}
+
+.big-footer-container h5 {
+  font-size: 16px;
 }
 
 footer hr {
@@ -242,6 +259,10 @@ footer hr {
 
 .text-black {
   color: black;
+}
+
+.text-celeste {
+  color: rgba(114,137,218,255);
 }
 
 /* classi di colore sfondo */
